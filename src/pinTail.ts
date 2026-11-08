@@ -16,7 +16,7 @@ const placeTail = (event: MouseEvent) => {
   tail.style.top = event.clientY + 'px';
 
   // Size tail to match donkey
-  const tailWidth = donkey.clientWidth * 0.42;
+  const tailWidth = donkey.clientWidth * 0.1;
   tail.style.width = tailWidth + 'px';
 
   setTimeout(() => {

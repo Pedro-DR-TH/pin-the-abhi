@@ -9,7 +9,7 @@ const placeTail = (event: MouseEvent) => {
   const dialogTImeout = donkeyTimeout + 1000;
 
   document.body.appendChild(tail);
-  tail.src = '/tail.png';
+  tail.src = `${import.meta.env.BASE_URL}tail.png`;
   tail.alt = 'Tail';
   tail.classList.add('tail');
   tail.style.left = event.clientX + 'px';
